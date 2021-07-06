@@ -107,6 +107,7 @@ alias ginit="git init;touch README.md; git add README.md;git commit -m 'first co
 
 # Turns my home in a git repo
 alias config="/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME"
+alias config-s="config status"
 alias config-a="config add"
 alias config-m="config commit -m"
 alias config-p="config push origin"
@@ -121,7 +122,7 @@ function gchanges -a message
 end
 
 function config-changes -a message
-        command /usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME $message ; /usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME push origin
+        command /usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME commit -m $message ; /usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME push origin
 end
 
 # cd commands
