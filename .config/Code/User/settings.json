@@ -118,4 +118,5 @@
     
         "from arepl_dump import dump"
     ],
+    "cSpell.enabled": false,
 }
