@@ -76,15 +76,14 @@ config checkout
 
 ## Fish configuration
 
-Set the fish shell as default:
+First, set the fish shell as default:
 
 ```bash
 chsh -s /usr/bin/fish
 ```
 
-Config linking:
+Then, for comfortability, symlink the config file to my home directory (Just as the `.bashrc`).
 
 ```bash
-cd ~/.config/fish
-ln -s ~/config,fish config.fish
+ln -s  ~/.config/fish/config.fish ./config.fish
 ```
