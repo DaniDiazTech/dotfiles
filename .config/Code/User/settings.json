@@ -1,6 +1,6 @@
 {
     "python.showStartPage": false,
-    "workbench.colorTheme": "Cherry",
+    "workbench.colorTheme": "Dracula Soft",
     "explorer.confirmDelete": false,
     "cSpell.userWords": [
         "APPNAME",

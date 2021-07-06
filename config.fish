@@ -121,7 +121,7 @@ function gchanges -a message
 end
 
 function config-changes -a message
-        command config-m $message ; config-p
+        command /usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME $message ; /usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME push origin
 end
 
 # cd commands
@@ -145,9 +145,9 @@ alias cdMG="cd ~/MEGAsync/github"
 alias cdC="cd ~/.config/"
 # installing packages
 
-alias install="sudo pacman -S" # install any pagckage
-alias search="pacman -Ss" # Search for a package
-alias sync="pacman -Syy" # sync the repos
+alias install="yay -S" # install any pagckage
+alias search="yay -Ss" # Search for a package
+alias sync="yay -Syy" # sync the repos
 alias update="sudo pacman -Syu" # Update the system, but not AUR
 alias onlyAUR="yay -Sua --noconfirm" # Update onlyAUR
 

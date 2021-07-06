@@ -24,7 +24,6 @@ Currently I'm using [Startship](https://starship.rs/guide/#%F0%9F%9A%80-installa
 sh -c "$(curl -fsSL https://starship.rs/install.sh)"
 ```
 
-
 ## Set Up
 
 *All of the following commands must be run on your home directory*
@@ -81,4 +80,11 @@ Set the fish shell as default:
 
 ```bash
 chsh -s /usr/bin/fish
+```
+
+Config linking:
+
+```bash
+cd ~/.config/fish
+ln -s ~/config,fish config.fish
 ```
