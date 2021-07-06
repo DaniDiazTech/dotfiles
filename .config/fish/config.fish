@@ -91,6 +91,11 @@ function commits
     git log --author="$argv" --format=format:%ad --date=short | uniq -c | awk '{print $1}' | spark | lolcat
 end
 
+# Code editor functions
+
+function editor
+    $VISUAL
+end
 
 # aliases:
 
@@ -124,6 +129,11 @@ end
 function config-changes -a message
         command /usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME commit -m $message ; /usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME push origin
 end
+
+function gclone -a repo
+        command git clone git@github.com:DaniDiazTech/$repo.git ; cd $repo
+end
+
 
 # cd commands
 
