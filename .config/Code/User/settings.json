@@ -51,6 +51,7 @@
         "editor.defaultFormatter": "vscode.html-language-features"
     },
     "django.snippets.exclude": [
+
         "cms",
         "wagtail"
     ],
@@ -59,7 +60,7 @@
     },
     "html.format.indentInnerHtml": true,
     "[django-html]": {
-        "editor.quickSuggestions": {
+        "editor.quickSuggestions":{
             "other": true,
             "comments": true,
             "strings": true
@@ -118,5 +119,19 @@
     
         "from arepl_dump import dump"
     ],
+    
     "cSpell.enabled": false,
+    "cSpell.customFolderDictionaries": [
+    
+    ],
+    "emmet.excludeLanguages": [
+
+        "markdown"
+    ],
+    "emmet.preferences": {
+    
+    },
+    "emmet.syntaxProfiles": {
+    
+    },
 }
