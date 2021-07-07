@@ -11,7 +11,7 @@ Original idea and tutorial from [atlassian](https://www.atlassian.com/git/tutori
 Dependencies used in config files installed with a `yay` command:
 
 ```bash
-yay -S exa bat neovim fish lxappearance visual-studio-code-bin
+yay -S exa bat neovim alacritty fish lxappearance visual-studio-code-bin
 ```
 
 ### Install shell prompt
