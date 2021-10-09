@@ -1,6 +1,6 @@
 {
     "python.showStartPage": false,
-    "workbench.colorTheme": "Dracula Soft",
+    "workbench.colorTheme": "Platzi Theme",
     "explorer.confirmDelete": false,
     "cSpell.userWords": [
         "APPNAME",
@@ -51,7 +51,6 @@
         "editor.defaultFormatter": "vscode.html-language-features"
     },
     "django.snippets.exclude": [
-
         "cms",
         "wagtail"
     ],
@@ -59,13 +58,6 @@
         "django-html": "html"
     },
     "html.format.indentInnerHtml": true,
-    "[django-html]": {
-        "editor.quickSuggestions":{
-            "other": true,
-            "comments": true,
-            "strings": true
-        }
-    },
     "beautify.language": {
         "js": {
             "type": [
@@ -89,9 +81,31 @@
         ]
         // ^^ providing just an array sets the VS Code file type
     },
+    "[django-html]": {
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": true,
+            "strings": true
+        }
+    },
     "[jsonc]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
+    "[markdown]": {
+        "editor.tabCompletion": "on",
+        "editor.acceptSuggestionOnCommitCharacter": true,
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    },
+    "[typescript]": {
+        "editor.autoClosingBrackets": "languageDefined"
+    },
+    "[javascript]": {
+        "editor.autoClosingBrackets": "languageDefined"
+    },
+    "[python]": {
+        "editor.autoClosingBrackets": "languageDefined"
+    },
+
     "editor.renderControlCharacters": false,
     "workbench.sideBar.location": "right",
     "workbench.editorAssociations": {
@@ -107,31 +121,28 @@
         "**/.settings": true,
         "**/.factorypath": true
     },
-    "[markdown]": {
-        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
-    },
     "hediet.vscode-drawio.local-storage": "eyIuZHJhd2lvLWNvbmZpZyI6IntcImxhbmd1YWdlXCI6XCJcIixcImN1c3RvbUZvbnRzXCI6W10sXCJsaWJyYXJpZXNcIjpcImdlbmVyYWw7YmFzaWM7YXJyb3dzMjtjbGlwYXJ0O3VtbFwiLFwiY3VzdG9tTGlicmFyaWVzXCI6W1wiTC5zY3JhdGNocGFkXCJdLFwicGx1Z2luc1wiOltdLFwicmVjZW50Q29sb3JzXCI6W10sXCJmb3JtYXRXaWR0aFwiOlwiMjQwXCIsXCJjcmVhdGVUYXJnZXRcIjpmYWxzZSxcInBhZ2VGb3JtYXRcIjp7XCJ4XCI6MCxcInlcIjowLFwid2lkdGhcIjo4NTAsXCJoZWlnaHRcIjoxMTAwfSxcInNlYXJjaFwiOnRydWUsXCJzaG93U3RhcnRTY3JlZW5cIjp0cnVlLFwiZ3JpZENvbG9yXCI6XCIjZDBkMGQwXCIsXCJkYXJrR3JpZENvbG9yXCI6XCIjNmU2ZTZlXCIsXCJhdXRvc2F2ZVwiOnRydWUsXCJyZXNpemVJbWFnZXNcIjpudWxsLFwib3BlbkNvdW50ZXJcIjowLFwidmVyc2lvblwiOjE4LFwidW5pdFwiOjEsXCJpc1J1bGVyT25cIjpmYWxzZSxcInVpXCI6XCJcIn0ifQ==",
     "notebook.cellToolbarLocation": {
         "default": "right",
         "jupyter-notebook": "left"
     },
     "AREPL.defaultImports": [
-    
         "from arepl_dump import dump"
     ],
-    
     "cSpell.enabled": false,
-    "cSpell.customFolderDictionaries": [
-    
-    ],
+    "cSpell.customFolderDictionaries": [],
     "emmet.excludeLanguages": [
-
         "markdown"
     ],
-    "emmet.preferences": {
-    
+    "emmet.preferences": {},
+    "emmet.syntaxProfiles": {},
+    "editor.inlineSuggest.enabled": true,
+    "github.copilot.autocomplete.enable": true,
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": true,
+        "markdown": true
     },
-    "emmet.syntaxProfiles": {
-    
-    },
+    "github.copilot.advanced": {},
 }

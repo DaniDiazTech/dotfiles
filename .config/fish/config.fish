@@ -21,7 +21,7 @@ set PATH $HOME/.local/bin $PATH
 # Sets the starship prompt
 starship init fish | source
 
-function mkdir-cd
+function mkcd
     mkdir $argv && cd $argv
 end
 
@@ -109,6 +109,9 @@ alias gcm="git commit -m"
 alias grc="git rm -r --cached"
 alias gph="git push origin" 
 alias ginit="git init;touch README.md; git add README.md;git commit -m 'first commit';git branch -M main"
+alias gtree="git log --all --graph --decorate --oneline"
+# GitHub
+alias github="cd ~/github"
 
 # Turns my home in a git repo
 alias config="/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME"
@@ -118,7 +121,7 @@ alias config-m="config commit -m"
 alias config-p="config push origin"
 
 function gremote -a repo
-        command git remote add origin git@github.com:Daniel1404/$repo.git
+        command git remote add origin git@github.com:DaniDiazTech/$repo.git
 end
 
 
