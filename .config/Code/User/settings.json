@@ -1,6 +1,6 @@
 {
     "python.showStartPage": false,
-    "workbench.colorTheme": "Platzi Theme",
+    "workbench.colorTheme": "Platzi Theme Green Mode",
     "explorer.confirmDelete": false,
     "cSpell.userWords": [
         "APPNAME",
@@ -130,7 +130,6 @@
         "from arepl_dump import dump"
     ],
     "cSpell.enabled": false,
-    "cSpell.customFolderDictionaries": [],
     "emmet.excludeLanguages": [
         "markdown"
     ],
@@ -142,7 +141,9 @@
         "*": true,
         "yaml": false,
         "plaintext": true,
-        "markdown": true
+        "markdown": true,
+        "python": false
     },
     "github.copilot.advanced": {},
+    "php.executablePath": "/opt/lampp/bin/php",
 }

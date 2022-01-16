@@ -73,7 +73,12 @@ Finally run config checkout again:
 ```bash
 config checkout
 ```
+### Configure untracked files
+To avoid showing every untracked file in the home directory, run:
 
+```
+config config --local status.showUntrackedFiles no
+```
 ## Fish configuration
 
 First, set the fish shell as default:
