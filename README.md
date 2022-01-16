@@ -43,7 +43,7 @@ echo "dotfiles" >> .gitignore
 Now, clone the bare repository:
 
 ```bash
-git clone --bare https://github.com/DaniDiazTech/dotfiles $HOME/dotfiles
+git clone --bare git@github.com:DaniDiazTech/dotfiles.git $HOME/dotfiles
 ```
 
 Checkout the files to download them, and place them in your home directory:
