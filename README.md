@@ -92,3 +92,10 @@ Then, for comfortability, symlink the config file to my home directory (Just as 
 ```bash
 ln -s  ~/.config/fish/config.fish ./config.fish
 ```
+
+## Aditional Pip dependencies
+
+Needed by Qtile, or ranger file manager.
+```
+sudo pip install ueberzug pywal psutil
+```
