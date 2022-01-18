@@ -11,7 +11,7 @@ Original idea and tutorial from [atlassian](https://www.atlassian.com/git/tutori
 Dependencies used in config files installed with a `yay` command:
 
 ```bash
-yay -S exa bat neovim alacritty fish lxappearance visual-studio-code-bin xfce4-screenshooter xfce4-clipman-plugin
+yay -S exa bat neovim alacritty fish lxappearance visual-studio-code-bin xfce4-screenshooter xfce4-clipman-plugin noto-fonts-emoji
 ```
 
 ### Install shell prompt
@@ -20,7 +20,7 @@ Currently I'm using [Startship](https://starship.rs/guide/#%F0%9F%9A%80-installa
 
 *Run the following command in a bash shell*
 
-```bash
+```bashjjjk
 sh -c "$(curl -fsSL https://starship.rs/install.sh)"
 ```
 
