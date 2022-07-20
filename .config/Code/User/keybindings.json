@@ -106,5 +106,21 @@
     {
         "key": "ctrl+x",
         "command": "editor.action.clipboardCutAction"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "workbench.action.files.newUntitledFile"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "-workbench.action.files.newUntitledFile"
+    },
+    {
+        "key": "ctrl+alt+meta+n",
+        "command": "-welcome.showNewFileEntries"
+    },
+    {
+        "key": "ctrl+alt+n",
+        "command": "explorer.newFile"
     }
 ]

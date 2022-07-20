@@ -1,6 +1,6 @@
 {
     "python.showStartPage": false,
-    "workbench.colorTheme": "Platzi Theme Green Mode",
+    "workbench.colorTheme": "Platzi Theme Classic",
     "explorer.confirmDelete": false,
     "cSpell.userWords": [
         "APPNAME",
@@ -142,8 +142,15 @@
         "yaml": false,
         "plaintext": true,
         "markdown": true,
-        "python": false
+        "python": true
     },
     "github.copilot.advanced": {},
     "php.executablePath": "/opt/lampp/bin/php",
+    "python.formatting.autopep8Path": "/home/daniel/.local/bin/autopep8",
+    "workbench.editor.untitled.hint": "hidden",
+    "[cpp]": {
+        "editor.tabSize": 2,
+        "editor.detectIndentation": false,
+        "editor.defaultFormatter": "ms-vscode.cpptools",
+    },
 }

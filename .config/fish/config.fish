@@ -97,6 +97,12 @@ function editor
     $VISUAL
 end
 
+
+function exc
+    set bin (string replace -r '.cpp$' '' $argv)
+    g++ -std=c++17 $argv -o $bin && ./$bin && rm $bin 
+end
+
 # aliases:
 
 # git
@@ -160,6 +166,7 @@ alias cdC="cd ~/.config/"
 # installing packages
 
 alias install="yay -S" # install any pagckage
+alias uninstall="yay -Rns" # uninstall any pagckage
 alias search="yay -Ss" # Search for a package
 alias sync="yay -Syy" # sync the repos
 alias update="sudo pacman -Syu" # Update the system, but not AUR
