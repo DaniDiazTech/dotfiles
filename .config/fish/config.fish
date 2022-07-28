@@ -100,7 +100,7 @@ end
 
 function exc
     set bin (string replace -r '.cpp$' '' $argv)
-    g++ -std=c++17 $argv -o $bin && ./$bin && rm $bin 
+    g++ -Wall -Wextra -DLOCAL -std=c++17 $argv -o $bin  && ./$bin && rm $bin 
 end
 
 # aliases:
