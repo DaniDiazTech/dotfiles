@@ -1,0 +1,1 @@
+/home/daniel/.config/fish/config.fish
