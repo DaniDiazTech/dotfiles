@@ -103,6 +103,10 @@ function exc
     g++ -Wall -Wextra -DLOCAL -std=c++17 $argv -o $bin  && ./$bin && rm $bin 
 end
 
+function problem
+    cp /home/daniel/MEGA/UNAL/competitive_programming/competitive-programming/template.cpp ./$argv
+end
+
 # aliases:
 
 # git
