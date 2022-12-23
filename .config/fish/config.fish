@@ -1,4 +1,3 @@
-
 ###############################################
 ### init.fish CONFIGURATION FILE OF DANIEL DIAZ ###
 #
@@ -17,6 +16,11 @@ set fish_vi_key_bindings
 
 # Set local bin  Path
 set PATH $HOME/.local/bin $PATH
+
+# Node stuff
+function nvm
+    bass source /usr/share/nvm/init-nvm.sh -- no-use ';' nvm $argv
+end
 
 # Sets the starship prompt
 starship init fish | source
@@ -107,6 +111,7 @@ function problem
     cp /home/daniel/MEGA/UNAL/competitive_programming/competitive-programming/template.cpp ./$argv
 end
 
+
 # aliases:
 
 # git
@@ -129,6 +134,9 @@ alias config-s="config status"
 alias config-a="config add"
 alias config-m="config commit -m"
 alias config-p="config push origin"
+
+# Deploy platforms
+alias fly="/home/daniel/.fly/bin/flyctl"
 
 function gremote -a repo
         command git remote add origin git@github.com:DaniDiazTech/$repo.git
